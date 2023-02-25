@@ -3,20 +3,49 @@
     margin: 0;
     box-sizing: border-box;
   }
-  h1{
+  .textotitulo{
     font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 48px;
     text-align: center;
-    padding: 15px;
+    padding: 3rem;
     color: rgb(255, 255, 255);
 
   }
+  .texto{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+    padding: 0rem;
+    color: rgb(255, 255, 255);
+
+  }
+  .textox{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+    padding: 0rem;
+    color: rgb(255, 255, 255);
+
+  }
+  .textodown{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+    padding: 3rem;
+    color: rgb(255, 255, 255);
+  }
+
 
   .gradiente {
 /*     display: flex; */
     height: 100vh;
     width: 100vw;
 
-    background: linear-gradient(45deg, #000000,#3C3555,#000000);
+    background: linear-gradient(50deg, #000000,#3C3555,#000000);
     background-size: 300% 300%;
     animation: colors 40s ease infinite;
   }
