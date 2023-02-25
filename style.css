@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  h1{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+
+  }
+
+  .gradiente {
+/*     display: flex; */
+    height: 100vh;
+    width: 100vw;
+
+    background: linear-gradient(45deg, #0d2740, #1f1036, #35143f, #2e243c);
+    background-size: 300% 300%;
+    animation: colors 15s ease infinite;
+  }
+
+  @keyframes colors {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
